@@ -1,5 +1,6 @@
 package io.react.realworldapp;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
@@ -28,6 +29,7 @@ public class ArticlePage {
         $(tagsField).setValue(tags);
     }
 
+    @Step ("Click Publish Article Button")
     public ArticleDetailsPage clickPublishArticleBtn(){
         $(publishArticleBtn).click();
         return new ArticleDetailsPage();

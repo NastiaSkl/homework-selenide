@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+    <suite name="UI smoke test suite" parallel="methods" thread-count="4">
+
+        <test name="UI smoke tests">
+            <classes>
+                <class name="io.react.realworlapp.LoginTest"/>
+                <class name="io.react.realworlapp.ArticleTest"/>
+                <class name="io.react.realworlapp.ProfileTest"/>
+                <class name="io.react.realworlapp.SettingsTest"/>
+
+            </classes>
+        </test>
+
+</suite>

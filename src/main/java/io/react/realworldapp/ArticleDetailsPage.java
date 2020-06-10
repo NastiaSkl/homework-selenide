@@ -1,5 +1,9 @@
 package io.react.realworldapp;
 
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
@@ -18,6 +22,9 @@ public class ArticleDetailsPage {
         return $(articlePage).isDisplayed();
     }
 
+    @Feature("Article")
+    @Severity(SeverityLevel.CRITICAL)
+    @Step ("Edit Article")
     public void editArticleTitle(String title){
         $(titleField).setValue(title);
     }
