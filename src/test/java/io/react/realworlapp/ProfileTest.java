@@ -18,10 +18,8 @@ public class ProfileTest extends TestBase {
     }
 
 
-
     @Test
     public void checkPageOpened(){
-
         $("li:nth-child(4)").click();
         $(By.className("action-btn")).shouldBe(Condition.visible);
 

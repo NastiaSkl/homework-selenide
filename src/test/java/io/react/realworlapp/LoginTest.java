@@ -13,15 +13,19 @@ public class LoginTest extends TestBase{
 
     private LoginPage loginPage = new LoginPage();
 
+
     @BeforeMethod
     public void setUp() {
+
+        Configuration.baseUrl = "https://react-redux.realworld.io/";
         open(Configuration.baseUrl);
+
+
     }
 
     @Test
     public void openPage() {
 
-        open("https://react-redux.realworld.io/");
         $("a[href='#login']").shouldBe(Condition.visible).click();
     }
 
