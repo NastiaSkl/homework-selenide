@@ -11,7 +11,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <suite>ui_tests</suite>
+        <suite>ui_test</suite>
         <browser>chrome</browser>
         <thread.count>2</thread.count>
         <aspectj.version>1.8.10</aspectj.version>
