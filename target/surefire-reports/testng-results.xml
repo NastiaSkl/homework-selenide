@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="API tests" duration-ms="6618" started-at="2020-06-30T10:34:50Z" finished-at="2020-06-30T10:34:56Z">
+  <suite name="UI smoke test suite" duration-ms="14258" started-at="2020-06-30T12:51:35Z" finished-at="2020-06-30T12:51:50Z">
     <groups>
     </groups>
-    <test name="Registration tests" duration-ms="6618" started-at="2020-06-30T10:34:50Z" finished-at="2020-06-30T10:34:56Z">
-      <class name="io.react.realworlapp.api.RegistrationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:io.react.realworlapp.api.RegistrationTest@e24ddd0]" name="setUp" is-config="true" duration-ms="1362" started-at="2020-06-30T10:34:50Z" finished-at="2020-06-30T10:34:51Z">
+    <test name="UI smoke tests" duration-ms="14258" started-at="2020-06-30T12:51:35Z" finished-at="2020-06-30T12:51:50Z">
+      <class name="io.react.realworlapp.ProfileTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.react.realworlapp.ProfileTest@33634f04]" name="setUp" is-config="true" duration-ms="11386" started-at="2020-06-30T12:51:36Z" finished-at="2020-06-30T12:51:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registrationUserTest()[pri:0, instance:io.react.realworlapp.api.RegistrationTest@e24ddd0]" name="registrationUserTest" duration-ms="5146" started-at="2020-06-30T10:34:51Z" finished-at="2020-06-30T10:34:56Z">
+        <test-method status="PASS" signature="checkPageOpened()[pri:0, instance:io.react.realworlapp.ProfileTest@33634f04]" name="checkPageOpened" duration-ms="2063" started-at="2020-06-30T12:51:47Z" finished-at="2020-06-30T12:51:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationUserTest -->
-      </class> <!-- io.react.realworlapp.api.RegistrationTest -->
-    </test> <!-- Registration tests -->
-  </suite> <!-- API tests -->
+        </test-method> <!-- checkPageOpened -->
+      </class> <!-- io.react.realworlapp.ProfileTest -->
+      <class name="io.react.realworlapp.SettingsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.react.realworlapp.SettingsTest@4993febc]" name="setUp" is-config="true" duration-ms="12229" started-at="2020-06-30T12:51:36Z" finished-at="2020-06-30T12:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.react.realworlapp.SettingsTest@4993febc]" name="setUp" is-config="true" duration-ms="2109" started-at="2020-06-30T12:51:47Z" finished-at="2020-06-30T12:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkPageOpened()[pri:0, instance:io.react.realworlapp.SettingsTest@4993febc]" name="checkPageOpened" duration-ms="104" started-at="2020-06-30T12:51:48Z" finished-at="2020-06-30T12:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageOpened -->
+        <test-method status="PASS" signature="userLogout()[pri:0, instance:io.react.realworlapp.SettingsTest@4993febc]" name="userLogout" duration-ms="196" started-at="2020-06-30T12:51:50Z" finished-at="2020-06-30T12:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+      </class> <!-- io.react.realworlapp.SettingsTest -->
+      <class name="io.react.realworlapp.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.react.realworlapp.LoginTest@2373ad99]" name="setUp" is-config="true" duration-ms="7710" started-at="2020-06-30T12:51:36Z" finished-at="2020-06-30T12:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.react.realworlapp.LoginTest@2373ad99]" name="setUp" is-config="true" duration-ms="7578" started-at="2020-06-30T12:51:36Z" finished-at="2020-06-30T12:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:io.react.realworlapp.LoginTest@2373ad99]" name="loginTest" duration-ms="4079" started-at="2020-06-30T12:51:44Z" finished-at="2020-06-30T12:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:io.react.realworlapp.LoginTest@2373ad99]" name="openPage" duration-ms="3865" started-at="2020-06-30T12:51:44Z" finished-at="2020-06-30T12:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+      </class> <!-- io.react.realworlapp.LoginTest -->
+    </test> <!-- UI smoke tests -->
+  </suite> <!-- UI smoke test suite -->
 </testng-results>
