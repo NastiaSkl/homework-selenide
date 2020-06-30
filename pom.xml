@@ -129,7 +129,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${project.build.testOutputDirectory}/ui_tests.xml</suiteXmlFile>
+                        <suiteXmlFile>${project.build.testOutputDirectory}/ui_test.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
                         <selenide.browser>${browser}</selenide.browser>
