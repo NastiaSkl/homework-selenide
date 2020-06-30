@@ -4,6 +4,8 @@
     <test name = "Registration tests">
         <classes>
             <class name = "io.react.realworlapp.api.LoginTest"/>
+            <class name = "io.react.realworlapp.api.RegistrationTest"/>
+            <class name = "io.react.realworlapp.api.ApiArticleTest"/>
         </classes>
     </test>
 </suite>
