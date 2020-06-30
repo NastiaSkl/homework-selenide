@@ -19,6 +19,7 @@ public class TestBase {
         //added option to run all tests that extend this class in remote browser.
 
         Configuration.baseUrl = "https://react-redux.realworld.io/";
+        Configuration.screenshots = true;
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
         capabilities.setVersion("83.0");
