@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage{
 
-    private static Logger LOG = LoggerFactory.getLogger(LoginPage.class);
+    static final Logger LOG = LoggerFactory.getLogger(LoginPage.class);
 
     private By authForm = byCssSelector(".auth-page");
     private By loginLink = byAttribute("href", "#login");
@@ -34,7 +34,9 @@ public class LoginPage{
     @Feature("User Login")
     @Severity(SeverityLevel.BLOCKER)
     @Step ("Open Login page")
+
     public LoginPage openPage() {
+        LOG.info("Open Login Page");
         $(loginLink).shouldBe(Condition.visible).click();
         return this;
     }
@@ -54,6 +56,7 @@ public class LoginPage{
 
     @Step ("Click SignIn button")
     public HomePage clickSignInButton() {
+        LOG.info("Click SignIn button");
        $(signInBtn).click();
         return new HomePage();
     }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API tests" duration-ms="6618" started-at="2020-06-30T10:34:50Z" finished-at="2020-06-30T10:34:56Z">
+    <groups>
+    </groups>
+    <test name="Registration tests" duration-ms="6618" started-at="2020-06-30T10:34:50Z" finished-at="2020-06-30T10:34:56Z">
+      <class name="io.react.realworlapp.api.RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.react.realworlapp.api.RegistrationTest@e24ddd0]" name="setUp" is-config="true" duration-ms="1362" started-at="2020-06-30T10:34:50Z" finished-at="2020-06-30T10:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registrationUserTest()[pri:0, instance:io.react.realworlapp.api.RegistrationTest@e24ddd0]" name="registrationUserTest" duration-ms="5146" started-at="2020-06-30T10:34:51Z" finished-at="2020-06-30T10:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationUserTest -->
+      </class> <!-- io.react.realworlapp.api.RegistrationTest -->
+    </test> <!-- Registration tests -->
+  </suite> <!-- API tests -->
+</testng-results>
