@@ -5,7 +5,6 @@
 
         <test name="UI smoke tests">
             <classes>
-                <class name="io.react.realworlapp.LoginTest"/>
                 <class name="io.react.realworlapp.ProfileTest"/>
                 <class name="io.react.realworlapp.SettingsTest"/>
 
